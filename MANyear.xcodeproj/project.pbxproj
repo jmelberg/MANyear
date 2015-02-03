@@ -14,6 +14,8 @@
 		717DD6C41A7DE74300640D8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717DD6C31A7DE74300640D8C /* Images.xcassets */; };
 		717DD6C71A7DE74300640D8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717DD6C51A7DE74300640D8C /* LaunchScreen.xib */; };
 		717DD6D31A7DE74300640D8C /* MANyearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717DD6D21A7DE74300640D8C /* MANyearTests.swift */; };
+		717DD6DF1A7DE7B600640D8C /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717DD6DE1A7DE7B600640D8C /* TaskManager.swift */; };
+		717DD6E11A7E065100640D8C /* manfish.png in Resources */ = {isa = PBXBuildFile; fileRef = 717DD6E01A7E065100640D8C /* manfish.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		717DD6CC1A7DE74300640D8C /* MANyearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MANyearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		717DD6D11A7DE74300640D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		717DD6D21A7DE74300640D8C /* MANyearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MANyearTests.swift; sourceTree = "<group>"; };
+		717DD6DE1A7DE7B600640D8C /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		717DD6E01A7E065100640D8C /* manfish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = manfish.png; path = ../../../../Desktop/MANYEAR/manfish.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +86,10 @@
 				717DD6BA1A7DE74300640D8C /* AppDelegate.swift */,
 				717DD6BC1A7DE74300640D8C /* FirstViewController.swift */,
 				717DD6BE1A7DE74300640D8C /* SecondViewController.swift */,
+				717DD6DE1A7DE7B600640D8C /* TaskManager.swift */,
 				717DD6C01A7DE74300640D8C /* Main.storyboard */,
 				717DD6C31A7DE74300640D8C /* Images.xcassets */,
+				717DD6E01A7E065100640D8C /* manfish.png */,
 				717DD6C51A7DE74300640D8C /* LaunchScreen.xib */,
 				717DD6B81A7DE74300640D8C /* Supporting Files */,
 			);
@@ -164,6 +170,7 @@
 				TargetAttributes = {
 					717DD6B41A7DE74300640D8C = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = UE9VMQ3VS6;
 					};
 					717DD6CB1A7DE74300640D8C = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -195,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717DD6E11A7E065100640D8C /* manfish.png in Resources */,
 				717DD6C21A7DE74300640D8C /* Main.storyboard in Resources */,
 				717DD6C71A7DE74300640D8C /* LaunchScreen.xib in Resources */,
 				717DD6C41A7DE74300640D8C /* Images.xcassets in Resources */,
@@ -217,6 +225,7 @@
 			files = (
 				717DD6BF1A7DE74300640D8C /* SecondViewController.swift in Sources */,
 				717DD6BB1A7DE74300640D8C /* AppDelegate.swift in Sources */,
+				717DD6DF1A7DE7B600640D8C /* TaskManager.swift in Sources */,
 				717DD6BD1A7DE74300640D8C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +349,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MANyear/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MANyear/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
